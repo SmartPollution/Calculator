@@ -10,7 +10,7 @@ Basic operations: +, −, ×, ÷, %
 
 Input validation (no double operators, leading zeros, etc.)
 
-Error handling (e.g. divide by zero, invalid expressions)
+Error handling (e.g., divide by zero, invalid expressions)
 
 Character limit to maintain display readability
 
@@ -24,25 +24,28 @@ JavaScript – logic and interactivity
 
 📁 File Structure
 calculator/
-├── index.html        # Main HTML file
-├── styles.css        # Calculator styles
-├── script.js         # JavaScript logic
-└── README.md         # Project documentation
+├── index.html      # Main HTML file
+├── styles.css      # Calculator styles
+├── script.js       # JavaScript logic
+└── README.md       # Project documentation
 
 📌 Usage
 
 Download or clone this repository:
 
-git clone https://github.com/your-username/calculator.git
+git clone https://github.com/SmartPollution/Calculator.git
 
 
-Open the index.html file in your preferred web browser.
+Navigate into the project folder:
 
-Start using the calculator!
+cd Calculator
+
+
+Open the index.html file in your preferred web browser and start using the calculator!
 
 ⚠️ Limitations
 
-Uses eval() to process calculations (acceptable for simple apps, but not secure for complex use).
+Uses eval() to process calculations (acceptable for simple apps, but not secure for complex or untrusted input).
 
 No support for parentheses or advanced math functions (e.g., square roots, powers).
 
@@ -50,5 +53,4 @@ Character display limited to 12 digits for readability.
 
 👤 Author
 
-Created by Your Zach De Dios
-. Contributions or suggestions are always welcome!
+Created by Zach De Dios. Contributions or suggestions are always welcome!
